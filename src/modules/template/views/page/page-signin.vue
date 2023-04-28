@@ -3,9 +3,7 @@
     <div class="text-center">
       <img class="mx-auto h-16 w-16" src="@/assets/logo-icon.png" alt="logo" />
       <div class="mt-4">
-        <h2 class="text-2xl font-semibold text-slate-600 dark:text-slate-100">
-          Welcome To {{ name }}
-        </h2>
+        <h2 class="text-2xl font-semibold text-slate-600 dark:text-slate-100">Welcome To A</h2>
         <p class="text-slate-400 dark:text-slate-300">Please sign up to continue</p>
       </div>
     </div>
@@ -135,6 +133,4 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { name } from '@/config/app'
-</script>
+<script setup lang="ts"></script>

@@ -23,7 +23,6 @@ const sidebarStore = useSidebarStore()
           :class="{
             'bg-slate-300/20': sidebarMenuStore.$state.activeShortcutIndex === index
           }"
-          @click="shortcut;"
         >
           <i :class="`block text-2xl ${shortcut.icon}`"></i>
         </router-link>

@@ -17,17 +17,7 @@
         >
           <div v-if="isLoading" class="p-4">Loading ...</div>
           <div v-if="!isLoading && options.length === 0" class="p-4">Datax not found</div>
-          <ul v-if="!isLoading && options.length > 0" class="my-2">
-            <li v-for="option in options" :key="option.label">
-              <button
-                type="button"
-                class="w-full flex items-center px-4 py-2 pr-8 text-left tracking-wide outline-none transition-all space-x-3.5 focus:bg-slate-100 hover:bg-slate-100 dark:focus:bg-slate-600 dark:hover:bg-slate-600"
-                @click="choose(option.name)"
-              >
-                <p class="line-clamp-2 text-slate-700 dark:text-slate-100">{{ option.name }}</p>
-              </button>
-            </li>
-          </ul>
+          <ul v-if="!isLoading && options.length > 0" class="my-2"></ul>
         </div>
       </slot>
     </template>
@@ -35,10 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import axios from '@/axios'
 import { onMounted, ref, watch } from 'vue'
-import { watchDebounced } from '@vueuse/core'
-import { useApi as useRoleApi } from '@/modules/role/composable/api'
 
 export interface OptionInterface {
   value: string
@@ -63,28 +50,16 @@ watch(props.options, (newData) => {
   console.log(newData)
 })
 
-const optionApi = useRoleApi()
 const isShow = ref(false)
-const selected = ref()
-const data = ref([])
-const searchText = ref('')
 const isLoading = ref(false)
 
 onMounted(async () => {
   isLoading.value = true
-  // const result = await readAllRole()
-  // data.value = result.data
   isLoading.value = false
 })
 
-const latestSelectedRole = ref()
-
 const onBlur = () => {
   emit('blur')
-  isShow.value = false
-}
-
-const choose = (text: string) => {
   isShow.value = false
 }
 </script>
