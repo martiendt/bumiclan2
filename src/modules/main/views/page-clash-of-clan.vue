@@ -33,10 +33,10 @@ data.sort(compare)
 
 <template>
   <div class="main-content-container">
-    <div class="main-content-header">
-      <h1>Clash of Clan</h1>
+    <div class="main-content-header items-center justify-center">
+      <img src="@/assets/images/clash-of-clan.png" class="max-w-xl" alt="" />
     </div>
-    <div class="main-content-body">
+    <div class="main-content-body mx-auto max-w-xl">
       <div class="card card-template">
         <div class="flex flex-wrap gap-2">
           <button class="btn btn-sm btn-primary">All</button>
