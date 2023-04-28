@@ -28,20 +28,20 @@ export const useScoreStore = defineStore('score', {
       {
         name: 'Kartika',
         physique: {
-          description: '0x Sit Up',
+          description: '25x Sit Up',
           score: 0
         },
         mental: {
-          score: 0
+          score: 67
         },
         health: {
-          score: 0
+          score: 100
         },
         kpi: {
-          score: 0
+          score: 80.94
         },
         contributionMeeting: {
-          score: 0
+          score: 42.9
         },
         training: {
           score: 0
@@ -72,20 +72,20 @@ export const useScoreStore = defineStore('score', {
       {
         name: 'Dewi',
         physique: {
-          description: '0x Sit Up',
-          score: 0
+          description: '27x Sit Up',
+          score: 100
         },
         mental: {
-          score: 0
+          score: 33
         },
         health: {
-          score: 0
+          score: 100
         },
         kpi: {
-          score: 0
+          score: 81.83
         },
         contributionMeeting: {
-          score: 0
+          score: 42.9
         },
         training: {
           score: 0
