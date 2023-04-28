@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useScoreStore } from '@/stores/score'
+import BaseBreadcrumb from '@/components/base-breadcrumb.vue'
 
 const scoreStore = useScoreStore()
 
@@ -29,7 +30,13 @@ data.sort(compare)
 <template>
   <div class="main-content-container">
     <div class="main-content-header">
-      <h1>Physique</h1>
+      <div class="flex flex-col gap-4">
+        <h1>Physique</h1>
+        <component
+          :is="BaseBreadcrumb"
+          :breadcrumbs="[{ name: 'Bumiclan', path: '/' }, { name: 'Physique' }]"
+        />
+      </div>
     </div>
     <div class="main-content-body">
       <div class="card card-template">

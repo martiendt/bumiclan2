@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { useScoreStore } from '@/stores/score'
+import BaseBreadcrumb from '@/components/base-breadcrumb.vue'
+import BaseDivider from '@/components/base-divider.vue'
 
 const scoreStore = useScoreStore()
 
@@ -33,8 +35,12 @@ data.sort(compare)
 
 <template>
   <div class="main-content-container">
-    <div class="main-content-header items-center justify-center">
-      <img src="@/assets/images/clash-of-clan.png" class="max-w-xl" alt="" />
+    <div class="main-content-header flex-col items-center justify-center gap-4">
+      <img src="@/assets/images/clash-of-clan.png" class="max-w-sm lg:max-w-xl" alt="" />
+      <component
+        :is="BaseBreadcrumb"
+        :breadcrumbs="[{ name: 'Bumiclan', path: '/' }, { name: 'Clash of Clan' }]"
+      />
     </div>
     <div class="main-content-body mx-auto max-w-xl">
       <div class="card card-template">
