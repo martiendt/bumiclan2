@@ -16,7 +16,7 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         kpi: {
-          score: 84.5
+          score: 84.5 * 2
         },
         contributionMeeting: {
           score: 100
@@ -38,7 +38,7 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         kpi: {
-          score: 80.94
+          score: 80.94 * 2
         },
         contributionMeeting: {
           score: 42.9
@@ -60,7 +60,7 @@ export const useScoreStore = defineStore('score', {
           score: 0
         },
         kpi: {
-          score: 83
+          score: 83 * 2
         },
         contributionMeeting: {
           score: 0
@@ -82,7 +82,7 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         kpi: {
-          score: 81.83
+          score: 81.83 * 2
         },
         contributionMeeting: {
           score: 42.9
@@ -104,7 +104,7 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         kpi: {
-          score: 83.78
+          score: 83.78 * 2
         },
         contributionMeeting: {
           score: 71.4
@@ -126,7 +126,7 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         kpi: {
-          score: 80.33
+          score: 80.33 * 2
         },
         contributionMeeting: {
           score: 57.1
@@ -148,7 +148,7 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         kpi: {
-          score: 79.56
+          score: 79.56 * 2
         },
         contributionMeeting: {
           score: 42.9
@@ -170,7 +170,7 @@ export const useScoreStore = defineStore('score', {
           score: 0
         },
         kpi: {
-          score: 81.86
+          score: 81.86 * 2
         },
         contributionMeeting: {
           score: 28.6
@@ -192,7 +192,7 @@ export const useScoreStore = defineStore('score', {
           score: 0
         },
         kpi: {
-          score: 68.66
+          score: 68.66 * 2
         },
         contributionMeeting: {
           score: 28.6
