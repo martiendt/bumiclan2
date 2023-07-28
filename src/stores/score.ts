@@ -210,16 +210,16 @@ export const useScoreStore = defineStore('score', {
           score: 0
         },
         mental: {
-          score: 0
+          score: 75
         },
         health: {
-          score: 0
+          score: 100
         },
         kpi: {
-          score: 0
+          score: 84.5 * 2
         },
         contributionMeeting: {
-          score: 0
+          score: 100
         },
         training: {
           score: 0
