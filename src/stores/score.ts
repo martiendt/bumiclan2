@@ -161,19 +161,19 @@ export const useScoreStore = defineStore('score', {
         name: 'Richwan',
         physique: {
           description: '',
-          score: 0
+          score: 100
         },
         mental: {
-          score: 0
+          score: 93
         },
         health: {
           score: 0
         },
         kpi: {
-          score: 0
+          score: 181.72
         },
         contributionMeeting: {
-          score: 0
+          score: 83.35
         },
         training: {
           score: 0
