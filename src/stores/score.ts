@@ -170,7 +170,7 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         kpi: {
-          score: 83.19
+          score: 83.19 * 2
         },
         contributionMeeting: {
           score: 78.55
