@@ -10,16 +10,16 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 63
+          score: 94
         },
         health: {
-          score: 0
+          score: 100
         },
         kpi: {
-          score: 83 * 2
+          score: 86.66 * 2
         },
         contributionMeeting: {
-          score: 61.25
+          score: 37.5
         },
         training: {
           score: 0
@@ -29,19 +29,19 @@ export const useScoreStore = defineStore('score', {
         name: 'Kartika',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 80
+          score: 0
         },
         health: {
-          score: 100
+          score: 0
         },
         kpi: {
-          score: 74.14 * 2
+          score: 0 * 2
         },
         contributionMeeting: {
-          score: 67.5
+          score: 0
         },
         training: {
           score: 0
@@ -54,16 +54,16 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 79
+          score: 72
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 85.67 * 2
+          score: 87.01 * 2
         },
         contributionMeeting: {
-          score: 81.25
+          score: 92.85
         },
         training: {
           score: 0
@@ -73,19 +73,19 @@ export const useScoreStore = defineStore('score', {
         name: 'Dewi',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 78
+          score: 0
         },
         health: {
-          score: 100
+          score: 0
         },
         kpi: {
-          score: 84.99 * 2
+          score: 0 * 2
         },
         contributionMeeting: {
-          score: 67.5
+          score: 0
         },
         training: {
           score: 0
@@ -98,16 +98,16 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 38
+          score: 61
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 75.94 * 2
+          score: 87.25 * 2
         },
         contributionMeeting: {
-          score: 45
+          score: 66.95
         },
         training: {
           score: 0
@@ -120,16 +120,16 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 62
+          score: 71
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 80.5 * 2
+          score: 81.66 * 2
         },
         contributionMeeting: {
-          score: 67.5
+          score: 100
         },
         training: {
           score: 0
@@ -142,16 +142,16 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 77
+          score: 71
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 80.4 * 2
+          score: 81.26 * 2
         },
         contributionMeeting: {
-          score: 81.25
+          score: 86.6
         },
         training: {
           score: 0
@@ -164,13 +164,13 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 94
+          score: 84
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 79.06 * 2
+          score: 79.4 * 2
         },
         contributionMeeting: {
           score: 93.75
@@ -183,19 +183,19 @@ export const useScoreStore = defineStore('score', {
         name: 'Martien',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 50
+          score: 45
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 80.33 * 2
+          score: 76.45 * 2
         },
         contributionMeeting: {
-          score: 71.25
+          score: 74.1
         },
         training: {
           score: 0
