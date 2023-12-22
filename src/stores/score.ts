@@ -51,66 +51,66 @@ export const useScoreStore = defineStore('score', {
         name: 'Richmon',
         physique: {
           description: '',
-          score: 0
+          score: 100
         },
         mental: {
-          score: 0
+          score: 62
         },
         health: {
-          score: 0
+          score: 100
         },
         kpi: {
-          score: 0
+          score: 89.67 * 2
         },
         contributionMeeting: {
-          score: 0
+          score: 100
         },
         training: {
-          score: 0
+          score: 40
         }
       },
       {
         name: 'Dewi',
         physique: {
           description: '',
-          score: 0
+          score: 100
         },
         mental: {
-          score: 0
+          score: 76
         },
         health: {
-          score: 0
+          score: 100
         },
         kpi: {
-          score: 0
+          score: 82.66 * 2
         },
         contributionMeeting: {
-          score: 0
+          score: 83.35
         },
         training: {
-          score: 0
+          score: 82.8
         }
       },
       {
         name: 'Yudha',
         physique: {
           description: '',
-          score: 0
+          score: 100
         },
         mental: {
-          score: 0
+          score: 89
         },
         health: {
           score: 0
         },
         kpi: {
-          score: 0
+          score: 81.07 * 2
         },
         contributionMeeting: {
-          score: 0
+          score: 88.9
         },
         training: {
-          score: 0
+          score: 70
         }
       },
       {
