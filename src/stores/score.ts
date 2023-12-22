@@ -10,19 +10,19 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 87
+          score: 82
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 85.16 * 2
+          score: 85 * 2
         },
         contributionMeeting: {
-          score: 88.9
+          score: 94.45
         },
         training: {
-          score: 0
+          score: 81.4
         }
       },
       {
@@ -32,38 +32,38 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 85
+          score: 86
         },
         health: {
-          score: 100
+          score: 0
         },
         kpi: {
-          score: 87.61 * 2
+          score: 88.1 * 2
         },
         contributionMeeting: {
-          score: 33.35
+          score: 100
         },
         training: {
-          score: 0
+          score: 78.5
         }
       },
       {
         name: 'Richmon',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 73
+          score: 0
         },
         health: {
-          score: 100
+          score: 0
         },
         kpi: {
-          score: 92.67 * 2
+          score: 0
         },
         contributionMeeting: {
-          score: 50
+          score: 0
         },
         training: {
           score: 0
@@ -73,19 +73,19 @@ export const useScoreStore = defineStore('score', {
         name: 'Dewi',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 57
+          score: 0
         },
         health: {
-          score: 100
+          score: 0
         },
         kpi: {
-          score: 89 * 2
+          score: 0
         },
         contributionMeeting: {
-          score: 27.8
+          score: 0
         },
         training: {
           score: 0
@@ -95,19 +95,19 @@ export const useScoreStore = defineStore('score', {
         name: 'Yudha',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 58
+          score: 0
         },
         health: {
-          score: 100
+          score: 0
         },
         kpi: {
-          score: 92.4 * 2
+          score: 0
         },
         contributionMeeting: {
-          score: 77.8
+          score: 0
         },
         training: {
           score: 0
@@ -120,19 +120,19 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 64
+          score: 70
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 78.5 * 2
+          score: 78 * 2
         },
         contributionMeeting: {
           score: 88.9
         },
         training: {
-          score: 0
+          score: 71.4
         }
       },
       {
@@ -142,19 +142,19 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 46
+          score: 86
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 85.56 * 2
+          score: 85.54 * 2
         },
         contributionMeeting: {
-          score: 88.9
+          score: 83.35
         },
         training: {
-          score: 0
+          score: 80
         }
       },
       {
@@ -164,19 +164,19 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 95
+          score: 92
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 75.73 * 2
+          score: 78.26 * 2
         },
         contributionMeeting: {
-          score: 38.9
+          score: 94.45
         },
         training: {
-          score: 0
+          score: 40
         }
       },
       {
@@ -186,19 +186,19 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 81
+          score: 69
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 90.2 * 2
+          score: 82.4 * 2
         },
         contributionMeeting: {
-          score: 88.9
+          score: 72.25
         },
         training: {
-          score: 0
+          score: 64.2
         }
       }
     ]
