@@ -29,22 +29,22 @@ export const useScoreStore = defineStore('score', {
         name: 'Kartika',
         physique: {
           description: '',
-          score: 100
-        },
-        mental: {
-          score: 86
-        },
-        health: {
           score: 0
         },
+        mental: {
+          score: 93
+        },
+        health: {
+          score: 100
+        },
         kpi: {
-          score: 88.1 * 2
+          score: 77.14 * 2
         },
         contributionMeeting: {
           score: 100
         },
         training: {
-          score: 78.5
+          score: 0
         }
       },
       {
@@ -73,22 +73,22 @@ export const useScoreStore = defineStore('score', {
         name: 'Dewi',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 76
+          score: 92
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 82.66 * 2
+          score: 86.66 * 2
         },
         contributionMeeting: {
-          score: 83.35
+          score: 100
         },
         training: {
-          score: 82.8
+          score: 0
         }
       },
       {
@@ -110,29 +110,29 @@ export const useScoreStore = defineStore('score', {
           score: 88.9
         },
         training: {
-          score: 70
+          score: 0
         }
       },
       {
         name: 'Robby',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 70
+          score: 55
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 78 * 2
+          score: 83 * 2
         },
         contributionMeeting: {
           score: 88.9
         },
         training: {
-          score: 71.4
+          score: 0
         }
       },
       {
@@ -142,63 +142,63 @@ export const useScoreStore = defineStore('score', {
           score: 100
         },
         mental: {
-          score: 86
+          score: 75
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 85.54 * 2
+          score: 86.74 * 2
         },
         contributionMeeting: {
           score: 83.35
         },
         training: {
-          score: 80
+          score: 0
         }
       },
       {
         name: 'Richwan',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 92
+          score: 95
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 78.26 * 2
+          score: 82.26 * 2
         },
         contributionMeeting: {
-          score: 94.45
+          score: 100
         },
         training: {
-          score: 40
+          score: 0
         }
       },
       {
         name: 'Martien',
         physique: {
           description: '',
-          score: 100
+          score: 0
         },
         mental: {
-          score: 69
+          score: 81
         },
         health: {
           score: 100
         },
         kpi: {
-          score: 82.4 * 2
+          score: 87.73 * 2
         },
         contributionMeeting: {
-          score: 72.25
+          score: 61.15
         },
         training: {
-          score: 64.2
+          score: 0
         }
       }
     ]
