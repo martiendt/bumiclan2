@@ -186,7 +186,7 @@ export const useScoreStore = defineStore('score', {
           score: 0
         },
         mental: {
-          score: 81
+          score: 82
         },
         health: {
           score: 100
