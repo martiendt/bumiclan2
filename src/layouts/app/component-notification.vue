@@ -88,7 +88,7 @@ const activeTab = ref('all')
               </div>
               <div>
                 <p class="font-medium text-slate-600 dark:text-slate-100">
-                  01 January 2022 <span class="text-xs font-light">08:00</span>
+                  01 February 2022 <span class="text-xs font-light">08:00</span>
                 </p>
                 <div class="mt-1 flex text-xs text-slate-400 dark:text-slate-300">
                   <span class="line-clamp-1">Create new invoice</span>
